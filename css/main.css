@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
+@-ms-viewport {
+    width: device-width ;
+}
+
+/*body, html { 
+    background: url(../images/back.png) no-repeat center center; 
+    /*-webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}*/
+
+.social {
+	text-align: center;
+	color: #000000;
+	padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+
+#media {
+	display: inline;
+    font-size:6.5em;
+    opacity: 0.8;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    padding-right: 75px;
+}
+
+#media:hover {
+    opacity: 1;
+}
+
+/*body {
+    background-image: url(../images/back.png);
+    min-height: 500px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.topheading {
+    font-size: 5vw;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 700px;
+    padding-bottom: 22%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading {
+    font-size: 5vw;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+    width: 60%;
+    text-align: center;
+    color: #000000;
+}
+
+.paragraph {
+    font-size: 2vw;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    width: 50vw;
+    padding-top: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.p {
+    padding-top: 100vh;
+    padding-bottom: 100vh;
+}
+
+.cd-fixed-bg {  
+    min-height: 110vh;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    z-index: 3;
+}
+  
+    .cd-fixed-bg.cd-fixed-bg--1 {
+        background-image: url("../images/back.png");
+    }
+  
+    .cd-fixed-bg.cd-fixed-bg--2 {
+        background-image: url("../images/gameplay.png");
+    }
+  
+    .cd-fixed-bg.cd-fixed-bg--3 {
+        background-image: url("../img/cd-background-3.jpg");
+    }
+  
+    .cd-fixed-bg.cd-fixed-bg--4 {
+        background-image: url("../img/cd-background-4.jpg");
+    }
+  
+    .cd-scrolling-bg {
+        min-height: 100%;
+    }
