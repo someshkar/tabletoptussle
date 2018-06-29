@@ -67,8 +67,8 @@
 
 .heading {
     font-size: 5vw;
-    font-family: 'Open Sans';
-    font-weight: 600;
+    font-family: 'Nunito';
+    font-weight: 500;
     font-style: normal;
     width: 60%;
     text-align: center;
@@ -78,7 +78,7 @@
 
 .paragraph {
     font-size: 2vw;
-    font-family: 'Open Sans';
+    font-family: 'Nunito';
     font-weight: 200;
     font-style: normal;
     width: 50vw;
