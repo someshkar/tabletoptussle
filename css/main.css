@@ -30,13 +30,13 @@
 
 #media {
 	display: inline;
-    font-size:6.5em;
+    font-size: 5em;
     opacity: 0.8;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-    padding-right: 75px;
+    padding-right: 60px;
 }
 
 #media:hover {
@@ -67,21 +67,23 @@
 
 .heading {
     font-size: 5vw;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans';
     font-weight: 600;
     font-style: normal;
     width: 60%;
     text-align: center;
     color: #000000;
+    padding-top: 10px;
 }
 
 .paragraph {
     font-size: 2vw;
-    font-family: 'Montserrat';
-    font-weight: 400;
+    font-family: 'Open Sans';
+    font-weight: 200;
     font-style: normal;
     width: 50vw;
     padding-top: 20px;
+    padding-bottom: 40px;
     text-align: center;
     color: #000000;
 }
@@ -106,15 +108,15 @@
     }
   
     .cd-fixed-bg.cd-fixed-bg--2 {
-        background-image: url("../images/gameplay.png");
+        background-image: url("../images/menu.png");
     }
   
     .cd-fixed-bg.cd-fixed-bg--3 {
-        background-image: url("../img/cd-background-3.jpg");
+        background-image: url("../images/shoot.png");
     }
   
     .cd-fixed-bg.cd-fixed-bg--4 {
-        background-image: url("../img/cd-background-4.jpg");
+        background-image: url("../images/making.png");
     }
   
     .cd-scrolling-bg {
