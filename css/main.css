@@ -122,3 +122,8 @@
     .cd-scrolling-bg {
         min-height: 100%;
     }
+
+.downloadbutton {
+    width: 25%;
+    height: 25%;
+}
