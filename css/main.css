@@ -23,9 +23,9 @@
 .social {
 	text-align: center;
 	color: #000000;
-	padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 20px;
+	/* padding-top: 100px;*/
+    padding-bottom: 30px;
+    padding-left: 37px;
 }
 
 #media {
@@ -126,4 +126,17 @@
 .downloadbutton {
     width: 25%;
     height: 25%;
+}
+
+.email {
+    text-decoration: none;
+    font-size: 3vw;
+    font-family: 'Nunito';
+    font-weight: 200;
+    font-style: normal;
+    width: 50vw;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #000000;
 }
